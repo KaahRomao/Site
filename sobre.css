@@ -1,0 +1,64 @@
+h1 {
+  text-align: center;
+  color: #efb11f;
+}
+hr {
+  border: 1px solid #efb11f;
+}
+
+body {
+  background-color: #743007;
+}
+
+#links,
+a {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  color: #efb11f;
+  text-decoration: none;
+  padding-top: 15px;
+}
+
+#sobre,
+p {
+  text-align: center;
+  color: #efb11f;
+  width: 70%;
+  margin: auto;
+  font-size: larger;
+  padding-top: 30px;
+}
+
+#galeria,
+#avaliacoes,
+#horarios {
+  width: 50%;
+  margin: 40px auto;
+  text-align: center;
+  color: #efb11f;
+}
+
+.fotos {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.fotos img {
+  width: 30%;
+  border-radius: 8px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+}

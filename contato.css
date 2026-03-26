@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+  color: #efb11f;
+}
+hr {
+  border: 1px solid #efb11f;
+}
+
+body,
+main {
+  background-color: #743007;
+  height: 100%;
+  width: 100%;
+}
+
+#links,
+a {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  color: #efb11f;
+  text-decoration: none;
+  padding-top: 15px;
+}
+
+fieldset {
+  height: 150px;
+  width: 80%;
+  margin: auto;
+}
+
+legend {
+  color: #efb11f;
+  text-align: center;
+}
+form {
+  color: #efb11f;
+}
