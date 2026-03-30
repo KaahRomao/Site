@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+  color: #efb11f;
+}
+hr {
+  border: 1px solid #efb11f;
+}
+
+body {
+  background-color: #743007;
+}
+
+#links,
+a {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  color: #efb11f;
+  text-decoration: none;
+  padding-top: 15px;
+}
+
+#sobre,
+p,
+h2,
+img,
+h3 {
+  text-align: center;
+  color: #efb11f;
+  width: 70%;
+  margin: auto;
+  font-size: larger;
+  padding-top: 30px;
+}
+
+#horarios {
+  width: 50%;
+  margin: 40px auto;
+  text-align: center;
+  color: #efb11f;
+}
+
+#produto {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
