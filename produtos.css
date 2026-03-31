@@ -21,10 +21,7 @@ a {
 }
 
 #sobre,
-p,
-h2,
-img,
-h3 {
+p {
   text-align: center;
   color: #efb11f;
   width: 70%;
@@ -33,15 +30,47 @@ h3 {
   padding-top: 30px;
 }
 
+.linha {
+  background-color: #2a1500;
+  color: black;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
 #horarios {
   width: 50%;
   margin: 40px auto;
   text-align: center;
   color: #efb11f;
 }
-
-#produto {
+.produtos {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 50px;
   justify-content: center;
+}
+.produto {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: 30%;
+  flex-direction: column;
+  background-color: #2a1500;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 1px solid #efb11f;
+}
+h2,
+h3 {
+  text-align: center;
+  color: #efb11f;
+  width: 70%;
+  margin: auto;
+
+  padding-top: 30px;
 }
